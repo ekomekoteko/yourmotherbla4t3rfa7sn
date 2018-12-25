@@ -34,7 +34,7 @@ client.on('ready', () => {
   console.log('╔[════════════]╗')
   console.log('Created By: me')
   console.log('╚[════════════]╝')
-client.user.setActivity("r#help | By Revenge",{type: 'WATCHING'});
+client.user.setActivity("g#help | By Mal Mahmoud-QuaStyle",{type: 'WATCHING'});
 console.log('Done The Watching Setup Completed')
 	
 });
