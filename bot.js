@@ -1,7 +1,7 @@
 //by revenge ! dont share this code in any discord server !
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const prefix = 'r#'
+const prefix = 'g#'
 //information about the bot
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -32,7 +32,7 @@ client.on('ready', () => {
   console.log('╚[════════════]╝')
   console.log('')
   console.log('╔[════════════]╗')
-  console.log('Created By: Revenge')
+  console.log('Created By: me')
   console.log('╚[════════════]╝')
 client.user.setActivity("r#help | By Revenge",{type: 'WATCHING'});
 console.log('Done The Watching Setup Completed')
@@ -69,16 +69,16 @@ client.on('ready', () => {//new ready event
 })
 
 client.on("message", message => {//new msg event
-  if (message.content === "r#help") {//the help cmd
+  if (message.content === "g#help") {//the help cmd
       message.react('🌈')
         let rainembed = new Discord.RichEmbed()//new embed
         //the embed description (help msg)
         .setDescription(`**
 =====================🌈 RainbowBot. 🌈=====================
-r#set 
+g#set 
  - لإنشاء رتبة الرينبو وبدا الرينبو
 - To create the role of the Rainbow & Start The Rainbow
-r#inv 
+g#inv 
 - لدعوة البوت
 - To Invite the bot
 خطوات لو الرتبة م أشتغلت .!!
@@ -88,7 +88,7 @@ The steps of the role did not worked .!!
 1- Place the role of the Rainbow above the colors or colored ranks if it
 2- Put the bot role above the role of the Rainbow 
 رآبط البوت - Bot Invite link
-- hhttp://cutt.us/HPkx6
+-  https://discord.gg/w95WeM2
 =====================🌈 RainbowBot. 🌈=====================
 **`)
 message.author.sendEmbed(rainembed)//send the embed to the author dm
